@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Matheus Freire-Dúvidas</title>
+    <style>
+        body {
+            background-color: rgba(126, 169, 248, 0.192);
+        }
+         /* CSS FOOTER */
+      footer {
+            margin: 0;
+            width: 100%;
+            background-color: #0e5a66;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            text-align: center;
+        }
+
+        #footerCopy {
+            width: 100%;
+            background-color: #083036;
+            color: white;
+            line-height: 2;
+            text-align: center;
+        }
+
+        footer a{
+            padding: 10px;
+            color: white;
+        }
+    
+        #footer1 {
+            width: 30%;
+            color: white;
+        }
+
+        #footer2 {
+            width: 40%;
+        }
+
+        #footer3 {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header  id="topo" class="row">
+                <nav class="navbar navbar-expand-lg navbar bg-info navbar ">
+                    <img class="navbar-brand" src="img/LOGO MATHEUS.png" width="15%">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                  
+                    <div class="collapse navbar-collapse navbar-dark" id="navbarSupportedContent" >
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.html">Principal<span class="sr-only">(current)</span></a>
+                        </li>
+                     
+    
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle nav-item active" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Atendimentos
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <a class="dropdown-item" href="atendimento.html">Quiropata</a>
+                              <a class="dropdown-item" href="atendimento.html">Mesoterapeuta</a>
+                              <a class="dropdown-item" href="atendimento.html">Esportiva</a>
+                            </div>
+                          </div>
+    
+                          <li class="nav-item">
+                            <a class="nav-link nav-item active" href="duvidas.html" >Dúvidas Frequentes</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link nav-item active" href="sobreNos.html" >Sobre Nós</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link nav-item active" href="faleConosco.html" >Fale Conosco</a>
+                          </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquise aqui" aria-label="search">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquise</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+    
+
+
+        <main>
+            <h1 class="text-center m-3">Dúvidas Frequentes</h1>
+            <p class="m-3 text-center">Está com alguma dúvida sobre fisioterapia? Antes de marcar sua consulta, veja
+                abaixo a resposta pra algumas das principais perguntas que os fisioterapeutas recebem.</p>
+            <div class="panel-group m-5" id="accordion">
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                Quando devo procurar um fisioterapeuta?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                Quanto tempo dura uma consulta?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                Tem idade máxima pra fazer fisioterapia</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                Os atendimentos são individuais?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                Minha dor de cabeça pode ser resolvida com fisioterapia?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                O que é quiropraxia?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                                Meu joelho está doendo, o que pode ser?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                                A fisioterapia evita cirurgias?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default mb-1">
+                    <div class="panel-heading bg-info shadow px-4 py-2 bg-white rounded">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                                Quantas sessões devo fazer por semana?</a>
+                        </h4>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse in">
+                        <div class="panel-body py-2 px-4">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta corporis corrupti quia
+                                impedit excepturi, rerum a fuga facere amet blanditiis. Fugiat inventore exercitationem
+                                nobis! Officia dicta ad dolores quam repellendus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis qui aperiam sed,
+                                doloremque in inventore asperiores accusamus atque ad nesciunt esse debitis saepe nam!
+                                Alias quo commodi quod harum beatae.</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </main>
+
+
+    <footer>
+        <div id="footer1">
+          <h4><a href="#topo">Voltar ao topo<img src="img/seta.png" width="32px" alt=""></a></h4>
+      </div>
+  
+      <div id="footer2">
+          <a href="https://www.facebook.com/Matheus-Freire-113189996720479/">
+              <img src="img/facebook.png">
+          </a>
+          <a
+              href="https://www.instagram.com/matheus.freirec/?igshid=5fr1i0e4ymd6&fbclid=IwAR2WrmnRUluw8EQNv7VxtWOCImPR1M8KO-SCzb42xc_GrfgX2MYRdVqdHHI">
+              <img src="img/instagram.png">
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5588998014042">
+              <img src="img/whatsicone.png" width="32px">
+          </a>
+      </div>
+  
+      <div id="footer3">
+          <a href="index.html"><img src="img/LOGO MATHEUS BRANCA .png" width="50%" alt=""></a>
+      </div>
+  
+  </footer>
+  <div id="footerCopy">
+      <h>Copyright © - Todos direitos reservados - 2021</p>
+  </div>
+    </div>
+    ​
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+​
